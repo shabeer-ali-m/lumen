@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<database name="root">
+  <table name="users">
+    <columns Field="id" Type="int(11)" Null="NO" Key="PRI" Default="" Extra="auto_increment" Comment=""/>
+    <columns Field="name" Type="varchar(255)" Null="NO" Key="" Default="" Extra="" Comment=""/>
+    <columns Field="email" Type="varchar(255)" Null="NO" Key="" Default="" Extra="" Comment=""/>
+    <columns Field="password" Type="varchar(255)" Null="NO" Key="" Default="" Extra="" Comment=""/>
+    <columns Field="api_token" Type="varchar(255)" Null="YES" Key="" Default="" Extra="" Comment=""/>
+  </table>
+</database>
